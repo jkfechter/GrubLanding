@@ -1,0 +1,120 @@
+body {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  font-family: arial;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+}
+#banner{
+  display: flex;
+  box-sizing: border-box;
+  background-color: #37296b;
+  color: white;
+  font-family: arial;
+  height: 64px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  
+}
+#banner a {
+  color: white;
+  font-weight: bold;
+}
+#banner a:hover {
+  color: blue;
+}
+#left {
+  display: flex;
+  padding-left: 20px;
+  background-image: url(https://media-cdn.grubhub.com/image/upload/c_scale,w_1650/q_50,dpr_auto,f_auto,fl_lossy,c_crop,e_vibrance:20,g_center,h_900,w_800/v1534256595/Onboarding/Burger.jpg);
+  width: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  flex-direction: column;
+  justify-content: space-between;
+}
+h1 {
+  margin: 0;
+  padding-left: 40px;
+  padding-top: 60px;
+  font-size: 60px;
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#treat {
+    display: flex;
+    align-self: flex-end;
+}
+#treat img {
+    height: 125px;
+    align-self: flex-end;
+}
+#right {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+#navButtons {
+    display: flex;
+    flex-direction: row-reverse;   
+}
+#navButtons a {
+    text-decoration: none;
+    font-weight: 700;
+    color: #0070eb;
+}
+#address {
+    font-size: 24px;
+    border:0;
+}
+#radialBorder {
+    border: 1px solid #8f8fa1;
+    border-radius: 3px;
+    padding: 0;
+}
+.vertical {
+    border-left: 1px solid #8f8fa1; 
+}
+#arrow {
+    font-size: 24px;
+    border: 0;
+    background: 0;
+    color: #0070eb;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#arrow:hover{
+    filter: brightness(.8);
+}
+::placeholder {
+    font-size: 16px;
+    padding-left: 5px;
+}
+#radialBorder {
+    display: flex;
+}
+#signIn:hover{
+    filter: brightness(.6);
+}
+#findFood{
+    margin-top: 10px;
+    font-size:  24px;
+    width: 100%;
+    color: white;
+    background-color: #0070eb;
+    border: 0;
+    border-radius: 3px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#findFood:hover{
+    filter: brightness(.8);
+}
